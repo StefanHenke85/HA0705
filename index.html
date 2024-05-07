@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Schaltja(hr)oder nein</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js" ></script>
+</head>
+<body>
+    <div class="darkmode">
+        <div class="darkmodebutton">
+            <button id="switch"> Mach ma Dunkel </button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Finde es heraus </h1>
+        <p id="ueberschrift">Finden Sie heraus, ob ein bestimmtes Jahr ein Schaltjahr ist !</p>
+        <input type="number" id="yearInput" placeholder="Geben Sie eine 4 stellige Jahreszahl ein">
+        <button onclick="SchaltjahrChecker()">Überprüfen</button>
+        <div class="result" id="result"></div>
+    </div>
+</body>
+</html>
